@@ -4,16 +4,13 @@ import {
   SignedOut,
   SignIn,
   SignUp,
-  UserButton,
-  RedirectToSignIn,
-
+  RedirectToSignIn
 } from "@clerk/clerk-react";
 import {
   createBrowserRouter,
   createRoutesFromElements,
   RouterProvider,
   Route,
-  Link
 } from "react-router-dom";
 import Welcome from './pages/Welcome'
 import Home from './pages/Home';

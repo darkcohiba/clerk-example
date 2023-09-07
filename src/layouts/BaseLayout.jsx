@@ -1,15 +1,12 @@
-import { NavLink, Outlet } from "react-router-dom";
-import styles from '../style/NavBar.module.css';
+import { Outlet } from "react-router-dom";
+import Header from '../Components/Header'
 
 
 export default function RootLayout() {
     return (
         <div>
             <header>
-                <nav className={styles.navMenu}>
-                    <NavLink to="/">Home</NavLink>
-                    <NavLink to="/Protected">Welcome</NavLink>
-                </nav>
+                <Header />
             </header>
             <main >
                 <Outlet />

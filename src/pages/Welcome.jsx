@@ -16,9 +16,8 @@ function Welcome() {
                 <p>Your session id is {sessionId}</p>
                 <p>Your user id is {user.id}</p>
                 <p>Your full name is {user.fullName}</p>
-
-                <UserButton />
             </div>
+            <UserButton />
         </div>
     )
 }

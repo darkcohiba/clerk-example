@@ -1,3 +1,4 @@
+import { dark } from '@clerk/themes';
 import {
   ClerkProvider,
   SignedIn,
@@ -63,7 +64,11 @@ function App() {
         </Route>
   ))
   return (
-      <ClerkProvider publishableKey={clerkPubKey}>
+      <ClerkProvider publishableKey={clerkPubKey}
+      appearance={{
+        baseTheme: dark
+      }}
+      >
         <RouterProvider 
           router={router} 
         />   

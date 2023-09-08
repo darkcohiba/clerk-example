@@ -1,6 +1,7 @@
 .container {
     display: flex;
-    /* justify-content: center; */
+    justify-content: space-between;
     background-color: #0000ff;
+    height: 100%;
     /* border: red 2px solid; */
 }

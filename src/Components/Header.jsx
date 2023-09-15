@@ -7,7 +7,7 @@ function Header() {
         <div>
             <nav className={styles.navMenu}>
                 <NavLink to="/">Home</NavLink>
-                <NavLink to="/Protected">Welcome</NavLink>
+                <NavLink to="/welcome">Welcome</NavLink>
             </nav>
         </div>
     )

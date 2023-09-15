@@ -31,12 +31,12 @@ function App() {
                 index
                 element={
                 <>
-                  <SignedIn>
+                  {/* <SignedIn> */}
                     <Home />
-                  </SignedIn>
+                  {/* </SignedIn>
                   <SignedOut>
                     <RedirectToSignIn />
-                  </SignedOut>
+                  </SignedOut> */}
                 </>
                 }
             />
@@ -49,7 +49,7 @@ function App() {
               element={<SignUp path="/sign-up" />}
             />
             <Route
-              path="/protected"
+              path="/welcome"
               element={
               <>
                 <SignedIn>

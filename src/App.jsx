@@ -42,11 +42,11 @@ function App() {
             />
             <Route
               path="/sign-in/*"
-              element={<SignIn path="/sign-in" />}
+              element={<SignIn />}
             />
             <Route
               path="/sign-up/*"
-              element={<SignUp path="/sign-up" />}
+              element={<SignUp  />}
             />
             <Route
               path="/welcome"

@@ -7,6 +7,8 @@ function Header() {
         <div>
             <nav className={styles.navMenu}>
                 <NavLink to="/">Home</NavLink>
+                <NavLink to="/sign-in">Sign in</NavLink>
+                <NavLink to="/sign-up">Sign up</NavLink>
                 <NavLink to="/welcome">Welcome</NavLink>
             </nav>
         </div>
